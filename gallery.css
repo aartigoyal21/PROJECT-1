@@ -1,0 +1,544 @@
+body{
+  /* animation:gradientBackground 5s infinite alternate; */
+  background-image: url('https://www.shutterstock.com/shutterstock/videos/1053825839/thumb/8.jpg?ip=x480');
+  background-repeat: no-repeat;
+  background-size: cover;
+} 
+/* @keyframes gradientBackground{
+  0%{
+  background-color:#ff7e5f;
+  background-image:linear-gradient(120deg,#c2c9d7,#feb47b);
+  }
+  50%{
+  background-color:#6a11cb;
+  background-image:linear-gradient(120deg,#43cea2,#cfd3beeb);
+  }
+  100%{
+  background-color:#43cea2;
+  background-image:linear-gradient(120deg,grey,lightpink);
+  }} */
+ /* .input{
+    position:absolute;
+    margin-top: 3%;
+    padding: 1%;
+ } */
+.heading{
+ font-size: 5em;
+ padding-top: 3%;
+ font-family:'Courier New', monospace;
+ color:white; 
+ overflow:hidden;
+ border-right: 0em solid orange;
+white-space:nowrap;
+animation:typing 3s steps(30,end), blink 0.75s step-end infinite alternate;
+}
+@keyframes typing{
+from{width:0%;}
+to {width:100%;}
+}
+@keyframes blink{
+50%{
+border-color:transparent;
+}
+}
+
+.links{
+  background-color:black;
+  height:60px ;
+  padding-top: 2%;
+  display: flex;
+
+}
+.link1{
+  text-decoration: none;
+  color: white;
+  padding-left: 300px;
+  font-size: 1.5rem;
+}
+.link2{
+  padding-left: 20px;
+  text-decoration: none;
+  color: white;
+  font-size: 1.5rem;
+}
+.link3{
+  padding-left: 20px;
+  text-decoration: none;
+  color: white;
+  font-size: 1.5rem;
+}
+.link4{
+  padding-left: 20px;
+  text-decoration: none;
+  color: white;
+  font-size: 1.5rem;
+}
+.name{
+
+  margin-left: 2%;
+  font-size: 2em;
+  font-family: 'Courier New', Courier, monospace;
+  color: white;
+}
+.link1:hover{
+  color:red;
+}
+.link2:hover{
+  color:red;
+}
+.link3:hover{
+  color:red;
+}
+.link4:hover{
+  color:red;
+}
+*{
+  margin: 0;
+  padding: 0;
+}
+  .new{
+  color: cornsilk;
+  padding-top: 3%;
+  padding-left: 1%;
+  font-size: 1.5em;
+  }
+
+  
+  .circle1{
+      margin: 25px;
+      height: 250px;
+      width: 250px;
+      border: 2px solid #FFFAFA;
+      background-size: cover;
+      border-radius: 190px;
+      background-image: url('https://www.livemint.com/lm-img/img/2024/10/09/600x338/Diljit_Dosanjh_1728467367080_1728467367331.jpg');
+      background-repeat: no-repeat;
+  }
+  .circle2{
+    margin: 25px;
+    height: 250px;
+    width: 250px;
+    border: 2px solid #FFFAFA;
+    background-size: cover;
+    border-radius: 190px;
+    background-image: url('https://www.radioandmusic.com/sites/www.radioandmusic.com/files/images/entertainment/2016/03/01/Yo-Yo-Honey-Singh.jpg');
+    background-repeat: no-repeat;
+  }
+  .circle3{
+    margin: 25px;
+    height: 250px;
+    width: 250px;
+    border: 2px solid #FFFAFA;
+    background-size: cover;
+    border-radius: 190px;
+    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQKRDFpT4GpMBjzrmBXt0y3-n1-7akttD0idw&s');
+    background-repeat: no-repeat;
+  }
+  .circle4{
+    margin: 25px;
+    height: 250px;
+    width: 250px;
+    border: 2px solid #FFFAFA;
+    background-size: cover;
+    border-radius: 190px;
+    background-image: url('https://feeds.abplive.com/onecms/images/uploaded-images/2022/10/01/c6c0a48040cf9d9e20bb0529d5522c3b1664616263641469_original.jpg?impolicy=abp_cdn&imwidth=1200');
+    background-repeat: no-repeat;
+  }
+  .circle5{
+    margin: 25px;
+    height: 250px;
+    width: 250px;
+    border: 2px solid #FFFAFA;
+    background-size: cover;
+    border-radius: 190px;
+    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRMtFod4eOnPHfU8m0EFYJ38MUtXhwQ1AFQkg&s');
+    background-repeat: no-repeat;
+  }
+  .images{
+    display: flex;
+  }
+  .s1{
+    text-decoration: none;
+    padding-left: 4%;
+    font-size: 1.5em;
+    color: whitesmoke;
+  }
+  .s2{
+    text-decoration: none;
+    padding-left: 11%;
+    font-size: 1.5em;
+    color: whitesmoke;
+  }
+  .s3{
+    text-decoration: none;
+    padding-left: 12%;
+    font-size: 1.5em;
+    color: whitesmoke;
+  }
+  .s4{
+    text-decoration: none;
+    padding-left: 11%;
+    font-size: 1.5em;
+    color: whitesmoke;
+  }
+  .s5{
+    text-decoration: none;
+    padding-left:10%;
+    font-size: 1.5em;
+    color: whitesmoke;
+  }
+  @media(max-width:768px)
+  {
+    .images{
+    display: block;
+    }
+    .link{
+      width: fit-content;
+      color: black;
+      margin-left: 70%;
+      }
+      .heading{
+        font-size: 3em;
+      }
+      .links{
+        background-color:black;
+        height:90px ;
+        padding-top: 2%;
+        display: flex;
+      }
+      .link1{
+        text-decoration: none;
+        color: white;
+        font-size: 1em;
+        padding-left: 0%;
+      }
+      .link2{
+        text-decoration: none;
+        color: white;
+        font-size: 1em;
+        padding-left: 0%;
+      }
+      .link3{
+        text-decoration: none;
+        color: white;
+        font-size: 1em;
+        padding-left: 0%;
+      }
+      .link4{
+        text-decoration: none;
+        color: white;
+        font-size: 1em;
+        padding-left: 0%;
+      }
+      .name{
+        font-size: 1.5em;
+        font-family: 'Courier New', Courier, monospace;
+        color: white;
+      }
+      .div{
+        display: flex;
+        padding-top: 12%;
+        padding-left:0%;
+      }
+      .name{
+        font-size: 1em;
+        font-family: 'Courier New', Courier, monospace;
+        color: white;
+      }
+  }
+
+  .circle6{
+    margin: 25px;
+    height: 250px;
+    width: 250px;
+    border: 2px solid #FFFAFA;
+    background-size: cover;
+    border-radius: 190px;
+    background-image: url('https://www.musicalsafar.com/wp-content/uploads/2021/08/20_05_2021-arijit_singh_21660518.jpg');
+    background-repeat: no-repeat;
+}
+.circle7{
+  margin: 25px;
+  height: 250px;
+  width: 250px;
+  border: 2px solid #FFFAFA;
+  background-size: cover;
+  border-radius: 190px;
+  background-image: url('https://images.livemint.com/img/2022/05/31/600x338/KK_(125)_1654021508424_1654021537923.jpg');
+  background-repeat: no-repeat;
+}
+.circle8{
+  margin: 25px;
+  height: 250px;
+  width: 250px;
+  border: 2px solid #FFFAFA;
+  background-size: cover;
+  border-radius: 190px;
+  background-image: url('https://d3lzcn6mbbadaf.cloudfront.net/media/details/dffffffffffffgdfg2022010604495820220106052713.jpg');
+  background-repeat: no-repeat;
+}
+.circle9{
+  margin: 25px;
+  height: 250px;
+  width: 250px;
+  border: 2px solid #FFFAFA;
+  background-size: cover;
+  border-radius: 190px;
+  background-image: url('https://dailyasianage.com/library/1509736047_3.jpg');
+  background-repeat: no-repeat;
+}
+.circle10{
+  margin: 25px;
+  height: 250px;
+  width: 250px;
+  border: 2px solid #FFFAFA;
+  background-size: cover;
+  border-radius: 190px;
+  background-image: url('https://wallpapercave.com/wp/wp4248280.jpg');
+  background-repeat: no-repeat;
+}
+.images{
+  display: flex;
+}
+.s6{
+  text-decoration: none;
+  padding-left: 6%;
+  font-size: 1.5em;
+  color: whitesmoke;
+}
+.s7{
+  text-decoration: none;
+  padding-left: 15%;
+  font-size: 1.5em;
+  color: whitesmoke;
+}
+.s8{
+  text-decoration: none;
+  padding-left: 15%;
+  font-size: 1.5em;
+  color: whitesmoke;
+}
+.s9{
+  text-decoration: none;
+  padding-left: 12%;
+  font-size: 1.5em;
+  color: whitesmoke;
+}
+.s10{
+  text-decoration: none;
+  padding-left:10%;
+  font-size: 1.5em;
+  color: whitesmoke;
+}
+@media(max-width:768px)
+{
+  .images{
+  display: block;
+  }
+  .link{
+    width: fit-content;
+    color: black;
+    margin-left: 70%;
+    }
+    .heading{
+      font-size: 3em;
+    }
+    .links{
+      background-color:black;
+      height:90px ;
+      padding-top: 2%;
+      display: flex;
+    }
+    .link1{
+      text-decoration: none;
+      color: white;
+      font-size: 1em;
+      padding-left: 0%;
+    }
+    .link2{
+      text-decoration: none;
+      color: white;
+      font-size: 1em;
+      padding-left: 0%;
+    }
+    .link3{
+      text-decoration: none;
+      color: white;
+      font-size: 1em;
+      padding-left: 0%;
+    }
+    .link4{
+      text-decoration: none;
+      color: white;
+      font-size: 1em;
+      padding-left: 0%;
+    }
+    .name{
+      font-size: 1.5em;
+      font-family: 'Courier New', Courier, monospace;
+      color: white;
+    }
+    .div{
+      display: flex;
+      padding-top: 12%;
+      padding-left:0%;
+    }
+    .name{
+      font-size: 1em;
+      font-family: 'Courier New', Courier, monospace;
+      color: white;
+    }
+}
+
+.circle11{
+  margin: 25px;
+  height: 250px;
+  width: 250px;
+  border: 2px solid #FFFAFA;
+  background-size: cover;
+  border-radius: 190px;
+  background-image: url('https://cdn.britannica.com/13/222713-050-ECDEDACE/Taylor-Swift-2019-Jingle-Ball.jpg');
+  background-repeat: no-repeat;
+}
+.circle12{
+  margin: 25px;
+  height: 250px;
+  width: 250px;
+  border: 2px solid #FFFAFA;
+  background-size: cover;
+  border-radius: 190px;
+  background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQhcW185n2E4XQGRLbULvyK4s9C7Xnwht4-Ww&s');
+  background-repeat: no-repeat;
+}
+.circle13{
+  margin: 25px;
+  height: 250px;
+  width: 250px;
+  border: 2px solid #FFFAFA;
+  background-size: cover;
+  border-radius: 190px;
+  background-image: url('https://thehowler.org/wp-content/uploads/2023/01/person-726x900.jpg');
+  background-repeat: no-repeat;
+}
+.circle14{
+  margin: 25px;
+  height: 250px;
+  width: 250px;
+  border: 2px solid #FFFAFA;
+  background-size: cover;
+  border-radius: 190px;
+  background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR9l8qBbzfoo7jfFY8GlVUI9DVrKe7Q5WAOAA&s');
+  background-repeat: no-repeat;
+}
+.circle15{
+  margin: 25px;
+  height: 250px;
+  width: 250px;
+  border: 2px solid #FFFAFA;
+  background-size: cover;
+  border-radius: 190px;
+  background-image: url('https://media.allure.com/photos/65d8f1e8e923c6a4feaf9a02/4:3/w_2664,h_1998,c_limit/dua%20lipa.jpg');
+  background-repeat: no-repeat;
+}
+.images{
+  display: flex;
+}
+.s11{
+  text-decoration: none;
+  padding-left: 5%;
+  font-size: 1.5em;
+  color: whitesmoke;
+}
+.s12{
+  text-decoration: none;
+  padding-left: 12%;
+  font-size: 1.5em;
+  color: whitesmoke;
+}
+.s13{
+  text-decoration: none;
+  padding-left: 13%;
+  font-size: 1.5em;
+  color: whitesmoke;
+}
+.s14{
+  text-decoration: none;
+  padding-left: 14%;
+  font-size: 1.5em;
+  color: whitesmoke;
+}
+.s15{
+  text-decoration: none;
+  padding-left: 10%;
+  font-size: 1.5em;
+  color: whitesmoke;
+}
+@media(max-width:768px)
+{
+  .images{
+    display: block;
+  }
+  .link{
+    width: fit-content;
+    color: black;
+    margin-left: 70%;
+    }
+    .heading{
+      font-size: 3em;
+    }
+    .links{
+      background-color:black;
+      height:90px ;
+      padding-top: 2%;
+      display: flex;
+    }
+    .link1{
+      text-decoration: none;
+      color: white;
+      font-size: 1em;
+      padding-left: 0%;
+    }
+    .link2{
+      text-decoration: none;
+      color: white;
+      font-size: 1em;
+      padding-left: 0%;
+    }
+    .link3{
+      text-decoration: none;
+      color: white;
+      font-size: 1em;
+      padding-left: 0%;
+    }
+    .link4{
+      text-decoration: none;
+      color: white;
+      font-size: 1em;
+      padding-left: 0%;
+    }
+    .name{
+      font-size: 1.5em;
+      font-family: 'Courier New', Courier, monospace;
+      color: white;
+    }
+    .div{
+      display: flex;
+      padding-top: 12%;
+      padding-left:0%;
+    }
+    .name{
+      font-size: 1.5em;
+      font-family: 'Courier New', Courier, monospace;
+      color: white;
+    }
+    .div{
+      display: flex;
+      padding-top: 12%;
+      padding-left:0%;
+    }
+    .name{
+      font-size: 1em;
+      font-family: 'Courier New', Courier, monospace;
+      color: white;
+    }
+}
