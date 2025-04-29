@@ -1,0 +1,209 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+    background-color: lightblue;
+background-size: cover;
+background-position: center;
+height: 100%;
+}
+.links{
+    background-color:black;
+    height:60px ;
+    padding-top: 2%;
+    display: flex;
+  }
+  .link1{
+    text-decoration: none;
+    color: white;
+    padding-left: 300px;
+    font-size: 1.5rem;
+  }
+  .link2{
+    padding-left: 20px;
+    text-decoration: none;
+    color: white;
+    font-size: 1.5rem;
+  }
+  .link3{
+    padding-left: 20px;
+    text-decoration: none;
+    color: white;
+    font-size: 1.5rem;
+  }
+  .link4{
+    padding-left: 20px;
+    text-decoration: none;
+    color: white;
+    font-size: 1.5rem;
+  }
+  .name{
+   
+    margin-left: 2%;
+    font-size: 2em;
+    font-family: 'Courier New', Courier, monospace;
+    color: white;
+  }
+  .link1:hover{
+    color:red;
+  }
+  .link2:hover{
+    color:red;
+  }
+  .link3:hover{
+    color:red;
+  }
+  .link4:hover{
+    color:red;
+  }
+  
+header {
+    background-color:black;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    margin-top: 2%;
+}
+.container {
+    width: 80%;
+    margin: auto;
+    padding: 20px;
+}
+.intro {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 30px;
+}
+.intro img {
+    width: 150px;
+    height: auto;
+    border-radius: 50%;
+}
+.intro-text {
+    max-width: 70%;
+    color:black;
+  }
+.intro-text h1 {
+    font-size: 2em;
+    margin-bottom: 10px;
+}
+.intro-text p {
+    font-size: 1.1em;
+    color:black;
+    line-height: 1.6; 
+}
+
+.keyfeatures {
+    font-size: 1.8em;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+.dropdown {
+  position: relative;
+  display: inline-block;
+  margin: 10px; 
+  margin-left: 5%;
+  margin-top: 5%;
+}
+
+
+.dropdown-button {
+  background-color:black; 
+  color: white;
+  padding: 10px 20px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+  border-radius: 4px;
+ 
+}
+
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  width: 160px;
+  box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+  padding: 10px;
+  border-radius: 4px;
+}
+
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+
+.dropdown-content p {
+  color: #333;
+  margin: 8px 0;
+}
+.aboutfea{
+  display: flex;
+}
+.user{
+  text-align: center;
+}
+
+@media(max-width:768px){
+.links{
+    background-color:black;
+    height:90px ;
+    padding-top: 2%;
+    display: flex;
+  }
+.link1{
+    text-decoration: none;
+    color: white;
+    font-size: 1em;
+    padding-left: 0%;
+  }
+  .link2{
+    text-decoration: none;
+    color: white;
+    font-size: 1em;
+    padding-left: 0%;
+  }
+  .link3{
+    text-decoration: none;
+    color: white;
+    font-size: 1em;
+    padding-left: 0%;
+  }
+  .link4{
+    text-decoration: none;
+    color: white;
+    font-size: 1em;
+    padding-left: 0%;
+  }
+  .name{
+    font-size: 1em;
+    font-family: 'Courier New', Courier, monospace;
+    color: white;
+  }
+  .div{
+    padding-top: 12%; 
+  }
+      .intro img {
+        width: 150px;
+        height: auto;
+        border-radius: 50%;
+        margin-right: 7%;
+        margin-bottom: 5%;
+    }
+}
