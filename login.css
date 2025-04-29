@@ -1,0 +1,67 @@
+body{
+   background-image: url('https://cdn.pixabay.com/photo/2017/10/11/23/35/musical-background-2842924_1280.jpg');
+   background-repeat: no-repeat;
+   background-size:cover;
+}
+.box{
+    height: 70vh;
+    width: 400px;
+    background-color:black;
+    justify-content: center;
+    border-radius: 50px;
+    box-shadow:5px 5px 5px black;
+    margin-left: 35%;
+    margin-top: 10%;
+}
+.lock{
+    padding-left: 80%;
+    width: 50px; 
+    height: 50px; 
+}
+.details{
+    padding-top: 10%;
+    text-align: center;
+    color: white;
+}
+.heading{
+    font-size: 2em;
+}
+.username{
+    margin-top: 20%;
+}
+.password{
+    margin-top: 10%;
+}
+.button{
+    border-radius: 10px;
+    margin-top: 10%;
+}
+.button:hover{
+    color:blue;
+}
+.link1{
+    padding-top: 10%;
+}
+.footer{
+    display: flex;
+    padding-top: 5% ;
+    padding-left: 5%;
+}
+@media(max-width:768px){
+    .box{
+        height:450px;
+        width:300px;
+        background-color:black;
+        border-radius:20px;
+        box-shadow:15px 15px 15px white;
+        margin-top: 25%;
+        padding-left: 2%; 
+        margin-left:24%;
+    }
+    .lock{
+        padding-left: 80%;
+        width: 40px; 
+        height: 40px; 
+    }
+    
+}
