@@ -1,0 +1,308 @@
+body{
+  background-color:lightblue;
+}
+.links{
+    background-color:black;
+    height:60px ;
+    padding-top: 2%;
+    display: flex;
+  }
+  .link1{
+    text-decoration: none;
+    color: white;
+    padding-left: 300px;
+    font-size: 1.5rem;
+  }
+  .link2{
+    padding-left: 20px;
+    text-decoration: none;
+    color: white;
+    font-size: 1.5rem;
+  }
+  .link3{
+    padding-left: 20px;
+    text-decoration: none;
+    color: white;
+    font-size: 1.5rem;
+  }
+  .link4{
+    padding-left: 20px;
+    text-decoration: none;
+    color: white;
+    font-size: 1.5rem;
+  }
+  .name{
+
+    margin-left: 2%;
+    font-size: 2em;
+    font-family: 'Courier New', Courier, monospace;
+    color: white;
+  }
+  .link1:hover{
+    color:red;
+  }
+  .link2:hover{
+    color:red;
+  }
+  .link3:hover{
+    color:red;
+  }
+  .link4:hover{
+    color:red;
+  }
+  
+  .header{
+    background-color: black;
+    height:150px;
+    text-align: center;
+   margin-top:2%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 3em;
+}
+*{
+    margin: 0;
+    padding: 0;
+  }
+.contactmusic{
+    font-size: 1.5em;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
+    padding-top: 2%;
+}
+.text{
+    padding-top: 3%;
+}
+.send{
+   text-align: center;
+   font-size: 2em;
+   padding-top: 5%;
+}
+.list1{
+    list-style: none;
+    padding-left: 0%;
+    font-size: 1.5em;
+}
+.list2{
+    list-style: none;
+    margin-left: 5%;
+}
+.query{
+   margin-top: 1%;
+}
+.I1{
+    height: 40px;
+    width: 300px;
+    margin-left: 3%;
+}
+.I2{
+    height: 40px;
+    width: 300px;
+    margin-left: 18%;
+}
+.I3{
+    height: 40px;
+    width: 300px;
+    margin-left: 10%;
+}
+.button {
+    background-color: #007BFF; 
+    color: white; 
+    text-align: center;
+    padding: 15px 70px;
+    text-decoration: none;
+    border-radius: 10px; 
+}
+.button:hover{
+  background-color: #007BFF;
+  color: white;
+  text-align: center;
+  padding:20px 75px;
+  text-decoration: none;
+  border-radius: 10px; 
+}
+.buttonlink{
+  text-align: center;
+  margin-top: 5%;
+  margin-right: 2%;
+}
+.contactinformation{
+  text-align: center;
+  padding-top: 1%;
+  font-size: 2em;
+}
+.aartiinfo{
+  background-color:black;
+  width: 310px;
+  height: 250px;
+  margin-left: 3%;
+  margin-top: 3%;
+  border-radius: 5%;
+  box-shadow: 5px 5px 45px black;
+}
+.aartiinfo:hover{
+  transition: transform 0.3s ease;
+}
+.aartiinfo:hover:hover{
+  transform: scale(1.2);
+}
+.aname{
+  padding-top:3%;
+  text-align: center;
+  color: white;
+}
+.asthainfo{
+  background-color:black;
+  width: 310px;
+  height: 250px;
+  margin-left: 17%;
+  margin-top: 3%;
+  border-radius: 5%;
+  box-shadow: 5px 5px 45px black;
+}
+.asthainfo:hover{
+  transition: transform 0.3s ease;
+}
+.asthainfo:hover:hover{
+  transform: scale(1.2);
+}
+.anchalinfo{
+  background-color:black;
+  width: 310px;
+  height: 250px;
+  margin-left: 14%;
+  margin-top: 3%;
+  border-radius: 5%;
+  box-shadow: 5px 5px 45px black;
+}
+.anchalinfo:hover{
+  transition: transform 0.3s ease;
+
+}
+.anchalinfo:hover:hover{
+  transform: scale(1.2);
+}
+.padding{
+     padding-left: 4%;
+     color: white;
+}
+.aboutus{
+  display: flex;
+}
+.input{
+  display: flex;
+  padding-top: 5%;
+}
+@media(max-width:768px){
+    .links{
+        background-color:black;
+        height:90px ;
+        padding-top: 2%;
+        display: flex;
+      }
+    .link1{
+        text-decoration: none;
+        color: white;
+        font-size: 1em;
+        padding-left: 0%;
+      }
+      .link2{
+        text-decoration: none;
+        color: white;
+        font-size: 1em;
+        padding-left: 0%;
+      }
+      .link3{
+        text-decoration: none;
+        color: white;
+        font-size: 1em;
+        padding-left: 0%;
+      }
+      .link4{
+        text-decoration: none;
+        color: white;
+        font-size: 1em;
+        padding-left: 0%;
+      }
+      .name{
+        font-size: 1em;
+        font-family: 'Courier New', Courier, monospace;
+        color: white;
+      }
+      .div{
+        padding-top: 12%; 
+      }
+      .header{
+        height:150px;
+        text-align: center;
+        padding-top:2%;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-size: 1.5em;
+    }
+   .contactmusic{
+    padding-top: 10%;
+   }
+   .contact-text{
+    font-size: 1.5em;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.text{
+    display: flex;
+    padding-top: 3%;
+}
+.send{
+    font-size: 1.5em;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding-left: 5%;
+   
+}
+
+.list2{
+    list-style: none;
+}
+.query{
+   margin-top: 0%;
+}
+.input{
+  display: block;
+}
+.I1{
+    height: 35px;
+    width: 200px;
+}
+.I2{
+    height: 35px;
+    width: 200px;
+    margin-top: 5%;
+    margin-left: 3%;
+}
+.I3{
+    height: 50px;
+    width: 200px;
+    margin-top: 5%;
+    margin-left: 3%;
+}
+.aboutus{
+  display: block;
+}
+.aartiinfo{
+  width: 300px;
+  height: 250px;
+  margin-left:20%;
+  margin-top: 5%;
+  border-radius: 5%;
+}
+.asthainfo{
+  width: 300px;
+  height: 250px;
+  margin-left:20%;
+  margin-top: 5%;
+  border-radius: 5%;
+}
+.anchalinfo{
+  width: 300px;
+  height: 250px;
+  margin-left:20%;
+  margin-top: 5%;
+  border-radius: 5%;
+}
+}
