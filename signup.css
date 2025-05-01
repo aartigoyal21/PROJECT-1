@@ -1,0 +1,232 @@
+body{
+    background-image:url('https://img.freepik.com/free-photo/cartoon-style-musical-notes-background_23-2151056773.jpg?size=626&ext=jpg&ga=GA1.1.1880011253.1728864000&semt=ais_hybrid');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.box{
+    background: transparent;
+    height: 70vh;
+    width:700px;
+    border-radius:10px;
+    margin-left: 26%;
+    margin-top: 10%;
+    box-shadow: 100px 100px 100px black;
+}
+.circle{
+    background-image:url('https://p7.hiclipart.com/preview/626/838/440/computer-icons-avatar-user-profile-contact-thumbnail.jpg');
+    background-repeat: no-repeat;
+   background-size: cover;
+    margin-left:42%;
+    height: 100px;
+    width: 100px;
+    border: 2px solid #FFFAFA;
+    border-radius: 190px;
+}
+.create{
+    text-align: center;
+}
+.input-h1{
+   display: flex;
+  
+}
+.email-h1{
+    padding-left: 2%;
+    
+}
+.username-h1{
+    padding-left: 3%;
+}
+.input-1{
+    margin-left: 2%;
+    width: 300px;
+    height: 30px;
+    border-radius: 50px;
+    width: 300px;
+}
+.input-2{
+    margin-left: 5%;
+    width: 300px;
+    height: 30px;
+    border-radius: 50px;  
+}
+.input-h2{
+    display: flex;
+    padding-top: 5%;
+   
+ }
+ .age-h2{
+     padding-left: 43%;
+     
+ }
+ .pass-h2{
+     padding-left: 35%;
+ }
+ .input-3{
+     margin-left: 2%;
+     width: 300px;
+     height: 30px;
+     border-radius: 50px;
+     width: 300px;
+ }
+ .input-4{
+     margin-left: 5%;
+     width: 300px;
+     height: 30px;
+     border-radius: 50px;  
+ }
+ .check{
+    text-align: center;
+ }
+ .button{
+    display: inline-block;
+    padding: 10px 20px;
+    background-color:black;
+    color:white;
+    text-decoration: none;
+    border-radius: 20px; 
+    margin-left: 38%;
+ }
+ .button:hover{
+    transition: transform 0.3s ease;
+  }
+  .button:hover:hover{
+    transform: scale(1.2);
+  }
+ .or{
+    text-align: center;
+    padding-right: 3%;
+    padding-top: 1%;
+ }
+ .types{
+    display: flex;
+    margin-top: 4%;
+ }
+ .b1{
+    padding: 10px 30px;
+    background-color: #007BFF;
+    color: white; 
+    text-align: center;
+    text-decoration: none; 
+    border-radius: 5px;
+    margin-left: 3%;
+    box-shadow:5px 5px 5px black;
+ }
+ 
+ .b2{
+    padding: 10px 30px;
+    background-color: #007BFF; 
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 5px; 
+    margin-left: 10%;
+    box-shadow:5px 5px 5px black;
+ } 
+ .b3{
+    padding: 10px 30px;
+    background-color: #007BFF; 
+    color: white;
+    text-align: center;
+    text-decoration: none; 
+    border-radius: 5px; 
+    margin-left: 10%;
+    box-shadow:5px 5px 5px black;
+ }
+ @media(max-width:768px){
+    .box{
+        background:transparent;
+        height: 60vh;
+        width:400px;
+        border-radius:10px;
+        margin-left: 8%;
+        margin-top: 30%;
+        box-shadow: 100px 100px 100px black;
+    }
+    body{
+        background-color: green;
+    }
+    .circle{
+        background-image:url('https://p7.hiclipart.com/preview/626/838/440/computer-icons-avatar-user-profile-contact-thumbnail.jpg');
+        background-repeat: no-repeat;
+       background-size: cover;
+        margin-left:42%;
+        height: 50px;
+        width: 50px;
+        border: 2px solid #FFFAFA;
+        border-radius: 190px;
+    }
+    .create{
+        text-align: center;
+        font-size: 1em;
+    }
+    .input-h1{
+        display: flex;
+       
+     }
+     .email-h1{
+         padding-left: 3%;
+         
+     }
+     .username-h1{
+         padding-left: 3%;
+     }
+     .input-1{
+         margin-left: 1%;
+         width: 180px;
+         height: 30px;
+         border-radius: 50px;
+     }
+     .input-2{
+         margin-left: 6%;
+         width: 180px;
+         height: 30px;
+         border-radius: 50px;  
+     }
+     .input-h2{
+        display: flex;
+        padding-top: 5%;
+       
+     }
+     .age-h2{
+         padding-left: 40%;
+         
+     }
+     .pass-h2{
+         padding-left: 26%;
+     }
+     .input-3{
+        margin-left: 1%;
+        width: 180px;
+        height: 30px;
+        border-radius: 50px;
+     }
+     .input-4{
+        margin-left: 6%;
+         width: 180px;
+         height: 30px;
+         border-radius: 50px; 
+     }
+     .inputs{
+        padding-bottom:5% ;
+     }
+     .button{
+        margin-left: 30%;
+        margin-top: 1%;
+        border-radius: 25px;
+        box-shadow:5px 5px 5px black;
+       padding: 10px 20px ;
+     }
+     .b1{
+        padding: 5px 15px;
+       margin-left: 0%;
+    }
+    
+    .b2{
+        padding: 5px 15px;
+        margin-left: 2%;
+    } 
+    .b3{
+        padding: 5px 15px;
+        margin-left: 2%;
+    }
+ }
